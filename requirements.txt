@@ -1,3 +1,2 @@
-# Dependências da aplicação. Instalação ainda não executada.
+# Dependências usadas nesta etapa de leitura do PDF.
 PyMuPDF
-chromadb

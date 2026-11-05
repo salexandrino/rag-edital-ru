@@ -3,6 +3,7 @@
 venv/
 __pycache__/
 *.py[cod]
+*.pyo
 
 # Segredos e configurações locais
 .env
@@ -18,4 +19,6 @@ data/index/*
 # Ferramentas e arquivos temporários
 .pytest_cache/
 .ruff_cache/
+.mypy_cache/
 *.log
+*.tmp

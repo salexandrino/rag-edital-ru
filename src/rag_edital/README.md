@@ -1,12 +1,8 @@
 # Módulos da aplicação
 
-O código será separado por responsabilidade, mantendo o fluxo explícito:
+O fluxo está sendo implementado por etapas. Nesta etapa existem:
 
-- `pdf_reader.py`: extração do texto e número de página do PDF.
-- `chunker.py`: divisão em trechos e inclusão dos metadados de origem.
-- `index_store.py`: criação, persistência e atualização do índice.
-- `retriever.py`: busca por palavras-chave e/ou vetores.
-- `answerer.py`: resposta baseada apenas nas evidências recuperadas.
-- `cli.py`: interface de terminal.
+- `pdf_reader.py`: validação do arquivo, extração do texto por página e preservação da posição da página no PDF.
+- `cli.py`: execução pelo terminal e apresentação de contagens, amostras e avisos.
 
-Esses módulos serão criados junto com suas respectivas etapas, para que cada parte possa ser conferida antes da próxima. A escolha do provedor e dos modelos ainda está pendente.
+Divisão em trechos, indexação, busca e geração serão implementadas em etapas posteriores, depois de conferir a extração. A escolha do provedor e dos modelos continua pendente.
