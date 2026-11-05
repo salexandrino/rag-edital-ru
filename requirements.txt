@@ -1,0 +1,3 @@
+# Dependências da aplicação. Instalação ainda não executada.
+PyMuPDF
+chromadb

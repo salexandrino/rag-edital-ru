@@ -1,0 +1,21 @@
+# Ambiente Python local
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+
+# PDF fornecido e índice gerado: não publicar por padrão
+data/edital/*
+!data/edital/.gitkeep
+data/index/*
+!data/index/.gitkeep
+
+# Ferramentas e arquivos temporários
+.pytest_cache/
+.ruff_cache/
+*.log
